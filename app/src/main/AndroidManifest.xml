@@ -10,7 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OpenSourceApp_4weeks">
         <activity
-            android:name=".MainActivity"
+            android:name=".project4_4"
+            android:exported="false" />
+        <activity
+            android:name=".project4_3"
+            android:exported="false" />
+        <activity
+            android:name=".project4_1"
+            android:exported="false" />
+        <activity
+            android:name=".project4_2"
+            android:exported="false" />
+        <activity
+            android:name=".project4_5"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
